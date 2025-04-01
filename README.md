@@ -43,8 +43,8 @@ A **Chrome extension** built with **Vite + React** that provides **AI-powered** 
 ### 👉 Manual Installation (Development Mode)
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/ai-youtube-summarizer.git
-   cd ai-youtube-summarizer
+   git clone https://github.com/MonuYadav05/Ai-YouTube-video-summarizer.git
+   cd Ai-YouTube-video-summarizer
    ```
 2. Install dependencies:
    ```sh
@@ -67,11 +67,8 @@ A **Chrome extension** built with **Vite + React** that provides **AI-powered** 
 
 ## ⚙️ Tech Stack
 - **Frontend:** React + Vite + Tailwind CSS
-- **Backend (if applicable):** Express.js
-- **AI Models:**  Gemini
+- **Backend:** Fast Api server for youtube transcript
+- **AI Models:** Gemini-1.5-flash  (Api)
 - **YouTube API:** Transcript extraction
-
-## 📸 Screenshots
-(Include images of the extension in action)
 
 
