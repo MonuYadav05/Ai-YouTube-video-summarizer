@@ -1,14 +1,14 @@
 {
     "builds":[
         {
-            "src":"api/transcriptServer.py",
+            "src":"transcriptServer.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "api/transcriptServer.py"
+            "dest": "transcriptServer.py"
         }
     ]
 }
