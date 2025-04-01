@@ -3,14 +3,13 @@
   "name": "Ai Youtube Video Summarizer",
   "version": "1.0.0",
   "description": "Summarize youtube videos using AI",
-   "default_icon": "logo.svg",
   "action": {
     "default_popup": "index.html",
     "default_icon": "logo.png"
   },
   "permissions": ["storage", "activeTab", "scripting","tabs"],
   "host_permissions": [
-    "https://www.youtube.com/watch/*"
+    "https://www.youtube.com/*"
   ],
   "icons": {
   "32": "logo.png",
@@ -19,7 +18,10 @@
   "content_scripts": [
     {
       "js": ["src/content.tsx"],
-      "matches": ["https://youtube.com/watch/*"]
+      "matches": ["https://www.youtube.com/*"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "src/background.ts"
+  }
 }
