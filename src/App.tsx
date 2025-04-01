@@ -6,7 +6,7 @@ import { BookOpen, Settings, Share2, Moon, Sun, FileText, List, AlignLeft, Clock
 import { SummaryView } from './components/SummaryView';
 
 function App() {
-  const [url, setUrl] = useState<string | null>("https://www.youtube.com/watch?v=HyzlYwjoXOQ");
+  const [url, setUrl] = useState<string | null>(null);
   const [transcript, setTranscript] = useState<string | null>(null);
   const [transcriptWithTimestamps, setTranscriptWithTimestamps] = useState<string | null>(null);
   const [summary, setSummary] = useState<string | null>(null);
