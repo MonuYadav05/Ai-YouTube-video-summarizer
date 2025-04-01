@@ -13,6 +13,10 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
+@app.get("/")
+async def home_root():
+    return {"message":"success"}
+
 @app.get("/transcript/{video_id}")
 def get_transcript(video_id: str):  # Specify the type of video_id
     try:

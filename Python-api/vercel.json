@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/api/transcriptServer.py"
+            "dest": "api/transcriptServer.py"
         }
     ]
 }
