@@ -35,13 +35,13 @@ export function SummaryView({ onBack, summary }: { onBack: () => void, summary?:
     };
 
     return (
-        <div className="w-[400px] summary-container min-h-[600px] bg-white p-4">
+        <div className="w-[400px]  bg-gray-900 summary-container min-h-[600px]  p-4">
             <div className="flex items-center gap-2 mb-6">
                 <button
                     onClick={onBack}
                     className="p-2 hover:bg-gray-100 rounded-full transition-colors"
                 >
-                    <ArrowLeft className="w-5 h-5" />
+                    <ArrowLeft className="w-5 h-5 text-blue-500" />
                 </button>
                 <h1 className="text-xl font-semibold">Video Summary</h1>
             </div>
@@ -56,7 +56,7 @@ export function SummaryView({ onBack, summary }: { onBack: () => void, summary?:
 
                     <div
                         dangerouslySetInnerHTML={{ __html: cleanedHtml }}
-                        className="mb-4 space-y-3 font-semibold text-gray-700"
+                        className="mb-4 space-y-3 font-semibold text-gray-300"
                     />
 
                 </>
