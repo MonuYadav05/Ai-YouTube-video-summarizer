@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.summary-container h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #3575e2;
+}
+
+.summary-container h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-top: 1rem;
+}
+/* 
+.summary-container ul {
+  padding-left: 1.5rem;
+} */
+
+.summary-container li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.summary-container strong {
+  color: #ff5722;
+}
+
+.summary-container em {
+  color: #007bff;
+  font-style: normal;
+}
